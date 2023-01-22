@@ -1,0 +1,27 @@
+/* @supports (background: paint(dashed-border)) { */
+
+
+  div {
+		--border-thickness: 2;
+		--border-length: 12;
+		--border-gap: 5;
+		--border-dash-cap: round;
+		--border-color: lightgrey;
+
+		padding: .5rem;
+		height: 500px;
+		width: 500px;
+    background: paint(dashed-border);
+		resize: both;
+		overflow: auto;
+  }
+  div:hover {
+		--border-thickness: 3;
+		--border-length: 100;
+		--border-gap: -1;
+		--border-color: #f8e515;
+
+		background-color: #ffffef;
+		cursor: pointer;
+  }
+/* } */
