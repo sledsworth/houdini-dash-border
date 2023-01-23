@@ -44,6 +44,12 @@ div:hover {
 }
 ```
 
+## Demo
+
+[CodePen Demo](https://codepen.io/sledsworth/pen/YzjeQGq)
+
+Currently, only Chrome and Edge support the required Paint API. This will not work in Safari or Firefox.
+
 ## Todo
 
 - [ ] Add option to change border radius (`--border-radius`)
