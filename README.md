@@ -7,7 +7,7 @@ Dashed borders in CSS with custom length, gap, and rounded end caps.
 | `--border-thickness` | `number` | The thickness of the border drawn, in pixels | 2 |
 | `--border-length` | `number` | The length of a dash, in pixels | 12 |
 | `--border-gap` | `number` | The gap in-between each dash, in pixels | 5 |
-| `--border-dash-cap` | `round | square | butt` | The end cap type for each dash. | round |
+| `--border-dash-cap` | `round \| square \| butt` | The end cap type for each dash. | round |
 | `--border-color` | `color` | The color of the border. | `lightgrey` |
 
 ## Usage
