@@ -1,6 +1,6 @@
 {
 	"name": "houdini-dash-border",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Dashed borders in CSS with custom length, gap, and rounded ends",
 	"main": "src/worklet.js",
 	"files": [
