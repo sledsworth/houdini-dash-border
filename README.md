@@ -48,7 +48,12 @@ div:hover {
 
 [CodePen Demo](https://codepen.io/sledsworth/pen/YzjeQGq)
 
-Currently, only Chrome and Edge support the required Paint API. This will not work in Safari or Firefox.
+## Support
+
+Currently Safari and Firefox do not support [CSS Paint API](https://drafts.css-houdini.org/css-paint-api-1/). If you'd like that to change, make sure to comment and vote for these issues to be addressed:
+- [Webkit CSS Paint API issue](https://bugs.webkit.org/show_bug.cgi?id=190217)
+- [Firefox CSS Paint API issue](https://bugzilla.mozilla.org/show_bug.cgi?id=1302328)
+- [Polyfill that works to some degree](https://github.com/GoogleChromeLabs/css-paint-polyfill)
 
 ## Todo
 
@@ -56,3 +61,4 @@ Currently, only Chrome and Edge support the required Paint API. This will not wo
 - [ ] Add option for multiple gap and length sizes of dashes
 - [ ] Add random dash length and gap option
 - [ ] Animate custom property changes.
+
