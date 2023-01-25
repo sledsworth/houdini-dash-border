@@ -16,7 +16,7 @@ Dashed borders in CSS with custom length, gap, and rounded end caps.
 
 ### Solid Border
 
-To turn off dashes, set the `--border-gap` to `-1`.
+To turn off dashes, set the `--border-gap` to `0`.
 
 ### Hover Example
 
@@ -36,7 +36,7 @@ div {
 div:hover {
   --border-thickness: 3;
   --border-length: 100;
-  --border-gap: -1;
+  --border-gap: 0;
   --border-color: #f8e515;
 
   background-color: #ffffef;
@@ -52,7 +52,7 @@ Currently, only Chrome and Edge support the required Paint API. This will not wo
 
 ## Todo
 
-- [ ] Add option to change border radius (`--border-radius`)
+- [x] Add option to change border radius (`--border-radius`)
 - [ ] Add option for multiple gap and length sizes of dashes
 - [ ] Add random dash length and gap option
 - [ ] Animate custom property changes.

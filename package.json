@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "Dashed borders in CSS with custom length, gap, and rounded ends",
 	"main": "src/worklet.js",
+	"files": [
+		"src"
+	],
 	"scripts": {
 		"start": "http-server ./src",
 		"test": "echo \"Error: no test specified\" && exit 1"
